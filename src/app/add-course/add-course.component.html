@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row">
+                <h3 class="mt-3">Add Course</h3>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label">Course Title:</label>
+                    <input type="text" name="title" [(ngModel)]="title" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label">Course Description:</label>
+                    <input type="text" name="description" [(ngModel)]="description" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label">Course Venue:</label>
+                    <input type="text" name="venue" [(ngModel)]="venue" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label">Course Duration:</label>
+                    <input type="text" name="duration" [(ngModel)]="duration" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label">Course Date:</label>
+                    <input type="date" name="date" [(ngModel)]="date" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button (click)="readCourseValue()" class="btn btn-primary mt-2">Add Course</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
