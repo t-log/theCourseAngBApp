@@ -7,14 +7,17 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 const myRoute:Routes=[{path:"",component:AddCourseComponent},
+                      {path:"add",component:AddCourseComponent},
                       ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddCourseComponent
+    AddCourseComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
